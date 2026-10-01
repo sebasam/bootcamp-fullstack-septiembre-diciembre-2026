@@ -1,0 +1,15 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+body {
+    display: flex;
+}
+
+/* #contenedor {
+    padding: 30px;
+} */
