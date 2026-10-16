@@ -1,0 +1,41 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.producto-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.producto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.producto-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.precio {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #198754;
+}
+
+#resumenCarrito {
+    display: block;
+}
+
+.carrito-item {
+    border-bottom: 1px solid #dee2e6;
+    padding: 15px 0;
+}
+
+.carrito-item:last-child {
+    border-bottom: none;
+}
+
+.cantidad {
+    min-width: 40px;
+    text-align: center;
+}
